@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  width: 300px;
+  padding: 50px 100px;
+  border: 2px solid #FFFFFF;
+  background-color: #003366;
+}
+
+.button h2 {
+  padding: 10px;
+  background-color: inherit;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #A4A400;
+}
+
+.main {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}

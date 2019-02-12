@@ -1,0 +1,52 @@
+body {
+  background-color: #FFCC00;
+  color: #000000;
+  font-family: Georgia, Garamond, sans-serif;
+}
+
+h1, h2, thead, th.caption {
+  background-color: #F0F0F0;
+  color: #A4A400;
+  font-family: "Century Gothic", Futura, Verdana, sans-serif;
+}
+
+table {
+  background-color: #CC9933;
+  color: #FFFFFF;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid #FFFFFF;
+  padding: 5px;
+}
+
+h1, h2, th {
+  font-weight: normal;
+  text-align: center;
+}
+
+th {
+  background-color: #003366;
+}
+
+li.menu {
+  display: inline;
+  background-color: #F0F0F0;
+  padding: 5px 20px;
+  border-right: 15px solid #003366;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+  font-size: 19px;
+}
