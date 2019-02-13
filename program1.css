@@ -8,6 +8,7 @@ h1, h2, thead, th.caption {
   background-color: #F0F0F0;
   color: #A4A400;
   font-family: "Century Gothic", Futura, Verdana, sans-serif;
+  letter-spacing: 4px;
 }
 
 table {
@@ -23,7 +24,6 @@ table, th, td {
 }
 
 h1, h2, th {
-  font-weight: normal;
   text-align: center;
 }
 
@@ -40,6 +40,33 @@ li.menu {
 
 li a {
   text-decoration: none;
+}
+
+ul {
+  /*list-style-image: url('leaficon.png');*/
+}
+
+#ingredients {
+  list-style: none;
+  padding-left: 0;
+}
+
+#ingredients li {
+  position: relative;
+  padding-left: 55px;
+}
+
+#ingredients li::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-image: url('./leaficon.png');
+  background-size: cover;
+  background-position: center;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .bold {
